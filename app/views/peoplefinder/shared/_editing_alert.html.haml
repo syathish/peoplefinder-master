@@ -1,0 +1,6 @@
+.inner-block
+  .editing-alert
+    - if params['prompt'] == 'profile'
+      = info_text('complete_your_profile_alert')
+    - else
+      = info_text('editing_alert')
