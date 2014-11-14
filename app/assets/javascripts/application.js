@@ -1,1 +1,0 @@
-//= require peoplefinder/application.js
